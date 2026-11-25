@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-slam-3dgs-semantic"
+version = "0.1.0"
+description = "Incremental visual geometry and semantic mapping project"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

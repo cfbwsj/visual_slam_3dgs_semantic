@@ -1,0 +1,35 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- 数据（绝对不能提交）----------
+data/
+!data/.gitkeep
+
+# ---------- 输出产物 ----------
+outputs/
+*.npz
+
+# ---------- 编辑器 / OS ----------
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# ---------- 临时文件 ----------
+*.log
+*.tmp
