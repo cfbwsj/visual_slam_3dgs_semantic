@@ -11,18 +11,23 @@ build/
 .ipynb_checkpoints/
 
 # ---------- 虚拟环境 ----------
-.venv/
+.venv*/
 venv/
 env/
 ENV/
 
 # ---------- 数据（绝对不能提交）----------
-data/
-!data/.gitkeep
+/data/
+!/data/.gitkeep
 
 # ---------- 输出产物 ----------
-outputs/
+/outputs/
 *.npz
+
+# ---------- 三方源码、模型与本地安装 ----------
+/third_party/
+/checkpoints/
+/.local/
 
 # ---------- 编辑器 / OS ----------
 .idea/
